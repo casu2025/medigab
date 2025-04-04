@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+* {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    transition: 0.2s;
+    position: fixed;
+    width: 1900px;
+    background-color: #110B11;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navdiv {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+}
+
+li, a {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFF0;
+    padding: 0px 10px 0px 0px;
+    scroll-behavior: smooth;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav_links li a:hover{
+    font-size: 18px;
+    color: #990000;
+}
+
+.intr {
+    width: 1900px;
+    height: 545px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFF0;
+    padding: 0px;
+}
+
+.nombre {
+    font-size: 48px;
+    color: #990000;
+}
+
+.botqs {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 99%;
+    height: 350px;
+	align-items: center;
+}
+
+.botn {
+    align-self: center;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    background: #990000;
+    border: #8f0101;
+    margin: 10px;
+    color: #FFFFF0;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.botn {
+    cursor: pointer;
+}
+
+.nst {
+    width: 1900px;
+    background-color: #110B11;
+    height: 950px;
+}
+
+.nstrs {
+    
+}
+.qs {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    display: flex;
+	justify-content: center;
+    align-items: flex-end;
+    padding: 140px 0px 90px 0px;
+    color: #990000;
+    width: 380;
+    height: 90px;
+}
+    
+.desc {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+	display: flex;
+	justify-content: center;
+    align-content: center;
+    color: #FFFFF0;
+}
+
+.d1 {
+    padding: 50px;
+}
+
+.d2 {
+    padding: 50px;
+}
+
+.d3 {
+    padding: 50px;
+}
+
+.clientes {
+    padding-top: 40px;
+}
+
+
+
+.client {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #110B11;
+    text-align: center;
+}
+
+.targetas {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 0px;
+}
+
+.targeta {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFF0;
+    width: 470px;
+    text-align: center;
+    list-style: none;
+    background-color: #110B11;
+    padding: 15px 40px 0px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.client h2 {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    color: #990000;
+    font-size: 52px;
+    
+}
+
+.clinf {
+    font-size: 24px;
+}
+
+.targeta img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.contactenos {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+    
+}
+
+.tit {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+}
+
+.tit h2 {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    color: #990000;
+    font-size: 52px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.cinf {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    color: #FFFFF0;
+    font-size: 24px;
+}
+
+.informacionyform {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+    margin-top: 50px;
+    padding-bottom: 95px;
+}
+
+.inf {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-end;
+    width: 550px;
+}
+
+.fa-solid {
+    color: #FFFFF0;
+}
+
+.txt {
+    color: #FFFFF0;
+    font-size: 24px;
+}
+
+.ic {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.formulario {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    background-color: #ffb9b9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    align-content: flex-end;
+    width: 420px;
+}
+  .boton {
+    align-self: center;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    background: #990000;
+    border: #8f0101;
+    margin: 10px;
+    color: #FFFFF0;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .boton:hover {
+    cursor: pointer;
+  }
+
+  .esp {
+    width:400px;
+    height: 200px;
+    background-color: #ffffff;
+    border-color: #FFFFF0;
+    border-radius: 5px;
+  }
+
+  .espt {
+    background-color: #ffffff;
+    border-color: #FFFFF0;
+    border: none;
+    width: 390px;
+    border-radius: 5px;
+  }
+
+  .footer {
+    display: flex;
+	justify-content: center;
+  }
+
+  .icf {
+    color: #323232;
+    font-size: 20px;
+  }
+
+  .da {
+    font-family: "Alata";
+    font-weight: 400;
+    font-size: 16px;
+    color: #323232;
+    font-size: 20px;
+  }
+
